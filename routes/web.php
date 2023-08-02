@@ -26,4 +26,9 @@ Route::get('/sign', function(){
 Route::get('/home', function(){
     return view('dashboard/home');
 });
-
+Route::get('/edit_profile', function(){
+    return view('dashboard/home');
+});
+Route::get('/posts/create', function(){
+    return view('dashboard/home');
+});
