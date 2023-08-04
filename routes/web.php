@@ -30,5 +30,5 @@ Route::get('/edit_profile', function(){
     return view('dashboard/home');
 });
 Route::get('/posts/create', function(){
-    return view('dashboard/home');
+    return view('posts/create');
 });
